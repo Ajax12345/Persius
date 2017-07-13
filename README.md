@@ -2,26 +2,26 @@ Perseus is the name of a simple scripting language that I created. As of 7/13/17
 
 Sytax:
 Currently, Perseus supports variable assignment, simple control, output, and variable quantity mutation. 
-To assign variables, determine a variable name and assign to what ever datatype you wish:
+To assign variables, determine a variable name and assign to what ever datatype you wish:<br />
 #----------------------<br />
-VAR1 = 234
-VAR2 = "FOO"
-VAR1 += 23352
-#----------------------
-Printing variables is simple:
-#--------------------------
-PRINT VAR1
-PRINT VAR2
-#--------------------------
-Perseus also supports comment-outs using the '?/:
-#-----------------------
-?/This line will not run
-#-----------------------
-
-Lastly, simple control can be implemented:
-#-------------------
-IF <VAR1 == 234>
-[
-  PRINT "THEY ARE EQUAL"
-]
-put your code in a .txt file and name it whatever you wish. 
+VAR1 = 234<br />
+VAR2 = "FOO"<br />
+VAR1 += 23352<br />
+#----------------------<br />
+Printing variables is simple:<br />
+#--------------------------<br />
+PRINT VAR1<br />
+PRINT VAR2<br />
+#--------------------------<br />
+Perseus also supports comment-outs using the '?/:<br />
+#-----------------------<br />
+?/This line will not run<br />
+#-----------------------<br />
+<br />
+Lastly, simple control can be implemented:<br />
+#-------------------<br />
+IF <VAR1 == 234><br />
+[<br />
+  PRINT "THEY ARE EQUAL"<br />
+]<br />
+put your code in a .txt file and name it whatever you wish<br />. 
