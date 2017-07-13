@@ -1,0 +1,19 @@
+PRINT "HELLO WORLD"
+VAL1 = "James"
+VAL2 = 10
+VAL2 += 12
+PRINT VAL2
+IF <VAL2 > 10>
+[
+  ?/This will not run
+  PRINT "HELLO"
+]
+VAL3 = 456
+IF <VAL3 == 456>
+[
+  VAL2 = 1000
+]
+PRINT VAL2
+PRINT "HI"
+VAL2 += 100000
+PRINT VAL2
