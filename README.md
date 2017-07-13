@@ -3,7 +3,7 @@ Perseus is the name of a simple scripting language that I created. As of 7/13/17
 Sytax:
 Currently, Perseus supports variable assignment, simple control, output, and variable quantity mutation. 
 To assign variables, determine a variable name and assign to what ever datatype you wish:
-#----------------------\n
+#----------------------<br />
 VAR1 = 234
 VAR2 = "FOO"
 VAR1 += 23352
