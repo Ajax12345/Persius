@@ -193,23 +193,28 @@ class Interpretor:
 
             #print "new", new
             #final_statements = [new[i] if new[i] != new[i+1] else new[i+1] for i in range(0, len(new)-1, 2)]
-            the_index = None
-
-            for i in range(len(new)-1):
-                if new[i] == new[i+1]:
-                    the_index = i
-
-
-            if the_index is None:
-                #print new #for loop did not have any control statements passed
+            if all(i == new[0] for i in new):
                 self.to_print.extend(new)
 
             else:
+                the_index = None
+
+                for i in range(len(new)-1):
+                    if new[i] == new[i+1]:
+                        the_index = i
 
 
-                final = new[:the_index][::2]+new[the_index:][::2]
+                if the_index is None:
+                    #for loop did not have any control statements passed
+                    self.to_print.extend(new)
 
-                self.to_print.extend(final)
+
+                else:
+
+
+                    final = new[:the_index][::2]+new[the_index:][::2]
+                    print "we did indeed get here", final
+                    self.to_print.extend(final)
 
 
 
