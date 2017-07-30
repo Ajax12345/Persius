@@ -1,0 +1,24 @@
+FUNCTION test_function(first, second)
+{
+  PRINT "hi"
+}
+
+
+
+FOR <i = 0; i < 10; i+=1>
+[
+  PRINT "HI, can this be seen?"
+
+
+]
+
+PRINT "Hello world"
+
+Val1 = 234
+IF <Val1 == 234>
+[
+  PRINT "THEY ARE EQUAL"
+]
+
+
+CALL test_function(56, 1234)
