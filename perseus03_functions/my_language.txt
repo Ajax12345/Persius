@@ -1,6 +1,8 @@
 FUNCTION test_function(first, second)
 {
-  PRINT "hi"
+  NEW = first + second
+
+  PRINT NEW
 }
 
 
