@@ -1,5 +1,5 @@
 import Tkinter as tk
-from my_language import Interpretor
+from perseus import Interpretor
 class PerseusIDLE:
     def __init__(self):
         self.main_window = tk.Tk()
